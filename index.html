@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Counter</title>
+</head>
+<body>
+  <h1>Counter</h1>
+
+  <div class="counter">
+    <div class="letters-counter">
+      <input type="text" id="inputText" placeholder="Type anything" size="40">
+      <p>Letters count: <span id="letterCount">0</span></p>
+    </div>
+  
+    <div class="number-counter">
+      <p><span id="number">0</span></p>
+
+      <div class="toggle" id="decrement">
+        <input type="checkbox" checked>
+        <span class="button" ></span>
+        <span class="label">-</span>
+      </div>
+
+      <div class="toggle" id="increment">
+        <input type="checkbox">
+        <span class="button" ></span>
+        <span class="label">+</span>
+      </div>
+
+    </div>
+  </div>
+  
+  <script src="counter.js"></script>
+</body>
+</html>
